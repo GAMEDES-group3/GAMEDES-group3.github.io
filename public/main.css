@@ -1,13 +1,11 @@
-.2_7 { 
-	overflow:hidden;
-}
-.e2_7 { 
+
+.challenge_page { 
 	background-image:linear-gradient(0deg, rgba(181.0000044107437, 230.00000149011612, 231.00000143051147, 1) 0%,rgba(241.00000083446503, 199.0000033378601, 206.0000029206276, 1) 100%) ;
 	width:1280px;
 	height:832px;
 	position:absolute;
 }
-.e2_14 { 
+.challenge_title { 
 	color:rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
 	width:268px;
 	height:72px;
@@ -19,7 +17,7 @@
 	font-size:64px;
 	letter-spacing:0;
 }
-.e2_17 { 
+.instructions_div { 
 	color:rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
 	width:865px;
 	height:120px;
@@ -41,14 +39,14 @@
 	background-repeat:no-repeat;
 	background-size:cover;
 }
-.e2_19 { 
+.challenge_complete_div { 
 	width:463px;
 	height:98px;
 	position:absolute;
 	left:408px;
 	top:658px;
 }
-.e2_20 { 
+.challenge_complete_button { 
 	background-color:rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
 	width:463px;
 	height:98px;
@@ -56,7 +54,7 @@
 	left:0px;
 	top:0px;
 }
-.e2_21 { 
+.challenge_complete_label { 
 	color:rgba(255, 255, 255, 1);
 	width:421px;
 	height:54px;
