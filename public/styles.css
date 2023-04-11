@@ -21,6 +21,13 @@
 	position:absolute;
 	left:0px;
 	top:0px;
+
+	color:rgba(255, 255, 255, 1);
+	position:absolute;
+	font-family:Puritan;
+	text-align:center;
+	font-size:48px;
+	letter-spacing:0;
 }
 .play_challenge_title { 
 	color:rgba(255, 255, 255, 1);
@@ -33,4 +40,8 @@
 	text-align:left;
 	font-size:48px;
 	letter-spacing:0;
+}
+button:hover {
+	cursor: pointer;
+	background-color: rgb(7 100 172 / 80%);
 }
