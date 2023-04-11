@@ -1,0 +1,34 @@
+.1_3 { 
+	overflow:hidden;
+}.e1_3 { 
+	width:1380px;
+	height:832px;
+	position:absolute;
+	background-image:url(images/home_page.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}.e2_10 { 
+	width:463px;
+	height:98px;
+	position:absolute;
+	left:408px;
+	top:595px;
+}.e2_8 { 
+	background-color:rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
+	width:463px;
+	height:98px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}.e2_9 { 
+	color:rgba(255, 255, 255, 1);
+	width:332px;
+	height:54px;
+	position:absolute;
+	left:66px;
+	top:22px;
+	font-family:Puritan;
+	text-align:left;
+	font-size:48px;
+	letter-spacing:0;
+}
