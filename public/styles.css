@@ -1,18 +1,17 @@
-
-.intro_page { 
-	width:1380px;
-	height:832px;
-	position:absolute;
-	background-image:url(images/home_page.png);
-	background-repeat:no-repeat;
-	background-size:cover;
+.intro_page {
+  width: 1380px;
+  height: 832px;
+  position: absolute;
+  background-image: url(images/home_page.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.div_button { 
-	width:463px;
-	height:98px;
-	position:absolute;
-	left:408px;
-	top:595px;
+.div_button {
+  width: 463px;
+  height: 98px;
+  position: absolute;
+  left: 408px;
+  top: 595px;
 }
 .play_button { 
 	background-color:rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
@@ -29,17 +28,17 @@
 	font-size:48px;
 	letter-spacing:0;
 }
-.play_challenge_title { 
-	color:rgba(255, 255, 255, 1);
-	width:332px;
-	height:54px;
-	position:absolute;
-	left:66px;
-	top:22px;
-	font-family:Puritan;
-	text-align:left;
-	font-size:48px;
-	letter-spacing:0;
+.play_challenge_title {
+  color: rgba(255, 255, 255, 1);
+  width: 332px;
+  height: 54px;
+  position: absolute;
+  left: 66px;
+  top: 22px;
+  font-family: Puritan;
+  text-align: left;
+  font-size: 48px;
+  letter-spacing: 0;
 }
 button:hover {
 	cursor: pointer;

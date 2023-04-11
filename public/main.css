@@ -1,50 +1,64 @@
-
-.challenge_page { 
-	background-image:linear-gradient(0deg, rgba(181.0000044107437, 230.00000149011612, 231.00000143051147, 1) 0%,rgba(241.00000083446503, 199.0000033378601, 206.0000029206276, 1) 100%) ;
-	width:1280px;
-	height:832px;
-	position:absolute;
+.challenge_page {
+  background-image: linear-gradient(
+    0deg,
+    rgba(181.0000044107437, 230.00000149011612, 231.00000143051147, 1) 0%,
+    rgba(241.00000083446503, 199.0000033378601, 206.0000029206276, 1) 100%
+  );
+  width: 1280px;
+  height: 832px;
+  position: absolute;
 }
-.challenge_title { 
-	color:rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
-	width:268px;
-	height:72px;
-	position:absolute;
-	left:498px;
-	top:45px;
-	font-family:Puritan;
-	text-align:left;
-	font-size:64px;
-	letter-spacing:0;
+.challenge_title {
+  color: rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
+  width: 268px;
+  height: 72px;
+  position: absolute;
+  left: 498px;
+  top: 45px;
+  font-family: Puritan;
+  text-align: left;
+  font-size: 64px;
+  letter-spacing: 0;
 }
-.instructions_div { 
-	color:rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
-	width:865px;
-	height:120px;
-	position:absolute;
-	left:207px;
-	top:513px;
-	font-family:Puritan;
-	text-align:center;
-	font-size:24px;
-	letter-spacing:0;
+.challenge_title_cham_cham_cham {
+  color: rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
+  height: 72px;
+  position: absolute;
+  left: 250px;
+  top: 45px;
+  font-family: Puritan;
+  text-align: left;
+  font-size: 64px;
+  letter-spacing: 0;
 }
-.video_div { 
-	width:566px;
-	height:326px;
-	position:absolute;
-	left:357px;
-	top:162px;
-	background-image:url(images/screen_shot_2023_04_04_at_20_56_1.png);
-	background-repeat:no-repeat;
-	background-size:cover;
+.instructions_div {
+  color: rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
+  width: 865px;
+  height: 120px;
+  position: absolute;
+  left: 207px;
+  top: 513px;
+  font-family: Puritan;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0;
 }
-.challenge_complete_div { 
-	width:463px;
-	height:98px;
-	position:absolute;
-	left:408px;
-	top:658px;
+.video_div {
+  width: 566px;
+  height: 326px;
+  position: absolute;
+  left: 357px;
+  top: 162px;
+  background-image: url(images/screen_shot_2023_04_04_at_20_56_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.challenge_complete_div {
+  width: 463px;
+  height: 98px;
+  position: absolute;
+  left: 408px;
+  top: 658px;
 }
 .challenge_complete_button { 
 	background-color:rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
