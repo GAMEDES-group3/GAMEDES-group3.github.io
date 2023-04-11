@@ -23,8 +23,14 @@
     </style>
     <script>
       console.log('Script file');
-      function testFunction() {
-        console.log('test');
+      function randomIntFromInterval(min, max) {
+        // min and max included
+        return Math.floor(Math.random() * (max - min + 1) + min);
+      }
+
+      function randomizer() {
+        const rndInt = randomIntFromInterval(1, 4);
+        console.log(rndInt);
       }
     </script>
   </head>
@@ -32,7 +38,7 @@
   <body>
     <div class="intro_page">
       <div class="div_button">
-        <button class="play_button" onclick="testFunction()">
+        <button class="play_button" onclick="randomizer()">
           <span class="e2_9">Play a challenge!</span>
         </button>
       </div>
