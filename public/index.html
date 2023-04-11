@@ -22,7 +22,6 @@
       }
     </style>
     <script>
-      console.log('Script file');
       function randomIntFromInterval(min, max) {
         // min and max included
         return Math.floor(Math.random() * (max - min + 1) + min);
@@ -31,6 +30,17 @@
       function randomizer() {
         const rndInt = randomIntFromInterval(1, 4);
         console.log(rndInt);
+
+        // render page depending on randomizer
+        if (rndInt === 1) {
+          window.location.replace('cham-cham-cham.html');
+        } else if (rndInt === 2) {
+          window.location.replace('rock-paper-scissors.html');
+        } else if (rndInt === 3) {
+          window.location.replace('369.html');
+        } else {
+          window.location.replace('palm-pushing.html');
+        }
       }
     </script>
   </head>
