@@ -17,9 +17,6 @@ html {
 .div_button {
   width: 463px;
   height: 98px;
-  /*position: absolute;
-  left: 408px;
-  top: 595px;*/
   margin: auto;
   margin-top: 600px;
 }
@@ -32,13 +29,8 @@ html {
   );
   width: 463px;
   height: 98px;
-  /*position: absolute;*/
-  /*left: 0px;
-  top: 0px;*/
-  /*margin:auto;*/
 
   color: rgba(255, 255, 255, 1);
-  /*position: absolute;*/
   font-family: Puritan;
   text-align: center;
   font-size: 48px;
