@@ -1,3 +1,4 @@
+/* CSS OF CHALLENGE PAGES */
 .challenge_page {
   background-image: linear-gradient(
     0deg,
@@ -62,24 +63,29 @@
   left: 408px;
   top: 658px;
 }
-.challenge_complete_button { 
-	background-color:rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
-	width:463px;
-	height:98px;
-	position:absolute;
-	left:0px;
-	top:0px;
+.challenge_complete_button {
+  background-color: rgba(
+    131.00000739097595,
+    79.00000289082527,
+    106.00000128149986,
+    1
+  );
+  width: 463px;
+  height: 98px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 
-	color:rgba(255, 255, 255, 1);
-	position:absolute;
-	width:421px;
-	height:54px;
-	font-family:Puritan;
-	text-align:center;
-	font-size:38px;
-	letter-spacing:0;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  width: 421px;
+  height: 54px;
+  font-family: Puritan;
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 0;
 }
 button:hover {
-	cursor: pointer;
-	background-color: rgb(7 100 172 / 80%);
-  }
+  cursor: pointer;
+  background-color: rgb(7 100 172 / 80%);
+}

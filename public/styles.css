@@ -1,7 +1,9 @@
+/* CSS OF INDEX PAGE */
 .intro_page {
-  width: 1920px;
-  height: 1080px;
+  height: 100%;
+  width: 100%;
   position: absolute;
+  background-position: center;
   background-image: url(images/home_page.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,20 +15,25 @@
   left: 408px;
   top: 595px;
 }
-.play_button { 
-	background-color:rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
-	width:463px;
-	height:98px;
-	position:absolute;
-	left:0px;
-	top:0px;
+.play_button {
+  background-color: rgba(
+    131.00000739097595,
+    79.00000289082527,
+    106.00000128149986,
+    1
+  );
+  width: 463px;
+  height: 98px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 
-	color:rgba(255, 255, 255, 1);
-	position:absolute;
-	font-family:Puritan;
-	text-align:center;
-	font-size:48px;
-	letter-spacing:0;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  font-family: Puritan;
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: 0;
 }
 .play_challenge_title {
   color: rgba(255, 255, 255, 1);
@@ -41,6 +48,6 @@
   letter-spacing: 0;
 }
 button:hover {
-	cursor: pointer;
-	background-color: rgb(7 100 172 / 80%);
+  cursor: pointer;
+  background-color: rgb(7 100 172 / 80%);
 }
