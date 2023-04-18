@@ -62,7 +62,9 @@ button:hover {
 }
 
 @media only screen and (min-width: 845px) and (max-width: 1400px) {
-  .play_button {
-    margin-top: -175px;
+  .div_button {
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 32%;
   }
 }
