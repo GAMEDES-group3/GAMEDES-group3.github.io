@@ -1,4 +1,8 @@
 /* CSS OF CHALLENGE PAGES */
+body{
+  overflow: hidden;
+}
+
 .challenge_page {
   background-image: linear-gradient(
     0deg,
@@ -10,18 +14,17 @@
   position: absolute;
   left: 0px;
   top: 0px;
+  display: block;
 }
 .challenge_title {
   color: rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
-  width: 268px;
-  height: 72px;
-  position: absolute;
-  left: 498px;
-  top: 45px;
+  width: 600px;
+  margin: auto;
+  margin-left:425px;
+  margin-top: 50px;
   font-family: Puritan;
-  text-align: left;
+  text-align: center;
   font-size: 64px;
-  letter-spacing: 0;
 }
 .challenge_title_cham_cham_cham {
   color: rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
@@ -38,31 +41,38 @@
   color: rgba(131.00000739097595, 79.00000289082527, 106.00000128149986, 1);
   width: 865px;
   height: 120px;
-  position: absolute;
-  left: 207px;
-  top: 513px;
+  /*position: absolute;*/
+  /*left: 207px;
+  top: 513px;*/
+  margin-top: 30px;
+  margin-left: 300px;
   font-family: Puritan;
   text-align: center;
   font-size: 24px;
   letter-spacing: 0;
+  margin-bottom: 20px;
+
 }
 .video_div {
   width: 566px;
   height: 326px;
-  position: absolute;
+  /*position: absolute;
   left: 357px;
-  top: 162px;
+  top: 162px;*/
   background-image: url(images/screen_shot_2023_04_04_at_20_56_1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left:23%;
 }
 .challenge_complete_div {
   width: 463px;
   height: 98px;
-  position: absolute;
-  left: 408px;
-  top: 658px;
+  position: static;
+  /*left: 408px;
+  top: 658px;*/
+  margin-left: 500px;
 }
+
 .challenge_complete_button {
   background-color: rgba(
     131.00000739097595,
@@ -72,10 +82,11 @@
   );
   width: 463px;
   height: 98px;
+  /*
   position: absolute;
   left: 0px;
   top: 0px;
-
+  */
   color: rgba(255, 255, 255, 1);
   position: absolute;
   width: 421px;
@@ -84,7 +95,9 @@
   text-align: center;
   font-size: 38px;
   letter-spacing: 0;
+  margin-top: 40px;
 }
+
 button:hover {
   cursor: pointer;
   background-color: rgb(7 100 172 / 80%);
