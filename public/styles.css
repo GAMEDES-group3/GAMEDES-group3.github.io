@@ -1,4 +1,5 @@
 /* CSS OF INDEX PAGE */
+
 body,
 html {
   height: 100%;
@@ -16,11 +17,8 @@ html {
 .div_button {
   width: 463px;
   height: 98px;
-  /*position: absolute;
-  left: 408px;
-  top: 595px;*/
   margin: auto;
-  margin-top:600px;
+  margin-top: 600px;
 }
 .play_button {
   background-color: rgba(
@@ -31,13 +29,8 @@ html {
   );
   width: 463px;
   height: 98px;
-  /*position: absolute;*/
-  /*left: 0px;
-  top: 0px;*/
-  /*margin:auto;*/
 
   color: rgba(255, 255, 255, 1);
-  /*position: absolute;*/
   font-family: Puritan;
   text-align: center;
   font-size: 48px;
@@ -58,4 +51,12 @@ html {
 button:hover {
   cursor: pointer;
   background-color: rgb(7 100 172 / 80%);
+}
+
+@media only screen and (min-width: 845px) and (max-width: 1400px) {
+  .div_button {
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 32%;
+  }
 }
